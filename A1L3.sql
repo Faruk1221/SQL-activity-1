@@ -16,3 +16,4 @@ SELECT * FROM Products;
 SELECT COUNT(products_id) FROM Products;
 SELECT AVG(price) FROM Products;
 SELECT SUM(price) FROM Products;
+SELECT DISTINCT suplier_id AS sid FROM Products;
